@@ -1,15 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import App from './App'
+import { BrowserRouter } from "react-router-dom";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/SignUp" element={<SignUp />} />
-        <Route path="/Clients" element={<Clients />} />
-      </Routes>
+      <App />
     </BrowserRouter>
-  </React.StrictMode>
 )
