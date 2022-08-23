@@ -1,14 +1,16 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import '../css/home.css'
 
 export const Home = () => {
     return (
-        <h5>Home Here</h5>
-        // <nav>
-        //     <h3>Menu de Navegação</h3>
-        //     <Link to='/'>Início</Link>
-        //     <Link to='/signup'>Cadastre-se</Link>
-        //     <Link to='/clients'>Clientes</Link>
-        // </nav>       
+        <div className="homeBody">
+            
+            <div>
+                <div>
+                    <p className="p1">Home Here</p>
+                </div>
+            </div>
+            
+        </div>
+
     )
 }

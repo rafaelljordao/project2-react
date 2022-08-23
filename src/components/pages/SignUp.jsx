@@ -1,9 +1,12 @@
-
+import '../css/signup.css'
 
 export const SignUp = () => {
     return (
-        <form>
-            Um form aqui
-        </form>      
+        <div className='signUpBody'>
+            <p>Sign Up Here</p>
+            <form>
+                
+            </form>      
+        </div>
     )
 }
