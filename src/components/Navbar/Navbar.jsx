@@ -6,9 +6,9 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <h3>Título da Navbar</h3>
-            <Link to='/'>Início</Link>
-            <Link to='/signup'>Cadastre-se</Link>
-            <Link to='/clients'>Clientes</Link>
+            <Link className="link" to='/'>Início</Link>
+            <Link className="link" to='/signup'>Cadastre-se</Link>
+            <Link className="link" to='/clients'>Clientes</Link>
         </nav>       
     )
 }

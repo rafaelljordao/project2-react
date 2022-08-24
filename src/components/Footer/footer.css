@@ -4,11 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: #ecb388;
+    background-color: #37373b;
     height: 10vh;
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
+    color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 9px;
 }

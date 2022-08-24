@@ -3,7 +3,7 @@ import './signup.css'
 export const SignUp = () => {
     return (
         <div className='signUpBody'>
-            <p>Sign Up Here</p>
+            <h1>Sign Up Here</h1>
             <form>
                 
             </form>      

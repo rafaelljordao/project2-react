@@ -3,7 +3,8 @@
 .clientsBody {
     display: flex;  
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #eeb07a;
+    background-color: aliceblue;
     width: 85%;
 }
