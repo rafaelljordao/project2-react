@@ -1,0 +1,12 @@
+
+
+.divFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37373b;
+    height: 10vh;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+}

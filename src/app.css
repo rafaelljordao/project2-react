@@ -1,5 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app {
+    height: 100vh;
+}
+
 .appDivBody {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 85vh;
 }

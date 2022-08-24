@@ -1,9 +1,9 @@
-import '../css/clients.css'
+import './clients.css'
 
 export const Clients = () => {
     return (
         <div className='clientsBody'>
-            <p>Clients Here</p>   
+            <h1>Clients Here</h1>   
         </div>
 
     )
