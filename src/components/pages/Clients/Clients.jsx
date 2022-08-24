@@ -1,4 +1,4 @@
-import '../css/clients.css'
+import './clients.css'
 
 export const Clients = () => {
     return (

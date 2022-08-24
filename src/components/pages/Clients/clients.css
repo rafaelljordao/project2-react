@@ -4,7 +4,6 @@
     display: flex;  
     flex-direction: column;
     align-items: center;
-    background-color: rgb(211, 193, 146);
+    background-color: #eeb07a;
     width: 85%;
-    border-radius: 10px;
 }
