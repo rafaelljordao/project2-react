@@ -1,4 +1,6 @@
-
+.titleForm {
+    margin: 20px;
+}
 
 .signUpBody {
     display: flex;
@@ -18,6 +20,8 @@
 .inputBox {
     height: 20px;
     margin-bottom: 20px;
+    border: none;
+    text-align: center;
 }
 
 .radioBox {
