@@ -2,11 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: 85vh;
     width: 15%;
     background-color: #2c2c39;
-    padding-top: 30px;
     color: aliceblue;
+}
+/* 
+.titleNavbar {
+    margin-top: 30px;
+    font-size: 30px;
+
+} */
+
+.divNavbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
 }
 
 .link {
@@ -14,9 +28,9 @@
     color: aliceblue;
 }
 
-.navBarButts {
+/* .navBarButts {
     display: flex;
     flex-direction: column;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-}
+} */
