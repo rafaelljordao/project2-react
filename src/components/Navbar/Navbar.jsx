@@ -5,10 +5,12 @@ import './navbar.css'
 export const Navbar = () => {
     return (
         <nav className="navbar">
-            <h3>Título da Navbar</h3>
-            <Link className="link" to='/'>Início</Link>
-            <Link className="link" to='/signup'>Cadastre-se</Link>
-            <Link className="link" to='/clients'>Clientes</Link>
+            {/* <h3 className="titleNavbar">Título da Navbar</h3> */}
+            <div className="divNavbar">
+                <Link className="link" to='/'>início</Link>
+                <Link className="link" to='/signup'>cadastre-se</Link>
+                <Link className="link" to='/clients'>clientes</Link>
+            </div>
         </nav>       
     )
 }
